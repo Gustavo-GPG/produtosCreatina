@@ -25,53 +25,53 @@ export const products = [
     price: 149.90,
     url: "https://vitaminhorse.com.br/produtos/pre-treino-pumonew-300g-vitamin-horse/"
   },
-  {
+   {
     id: 3,
+    name: "NOVO PUMONEW EPHEDRA BLACK 300g",
+    image: pumonewEB,
+    price: 189.90,
+    url: "https://vitaminhorse.com.br/produtos/pre-treino-pumonew-ephedra-black-300g-vitamin-horse/"
+  },
+  {
+    id: 4,
     name: " CREATINA 100% PURA 300g - VITAMIN HORSE",
     image: creatinaImg,
     price: 59.90,
     url: "https://vitaminhorse.com.br/produtos/creatina-100-pura-300g-vitamin-horse/"
   },
   {
-    id: 4,
+    id: 5,
     name: "Whey 100% Vitamin Horse 1kg 24g Proteína + Creatina",
     image: wheyImg,
     price: 149.90,
     url: "https://vitaminhorse.com.br/produtos/whey-100-vitamin-horse-1kg-24g-proteina-creatina-kdpac/"
   },
   {
-    id: 5,
+    id: 6,
     name: "HORSE CREAM 200g SABOR AVELÃ COM PIMENTA E CREATINA - VITAMIN HORSE",
     image: cremeImg,
     price: 59.90,
     url: "https://vitaminhorse.com.br/produtos/horse-cream-200g-sabor-avela-com-pimenta-e-creatina-vitamin-horse-4si7m/"
   },
   {
-    id: 6,
+    id: 7,
     name: "CREATINA 1KG – PERFORMANCE MÁXIMA E RECUPERAÇÃO - VITAMIN HORSE",
     image: creatina1kgImg,
     price: 127.90,
     url: "https://vitaminhorse.com.br/produtos/creatina-1kg-performance-maxima-e-recuperacao-vitamin-horse-evdhp/"
   },
   {
-    id: 7,
+    id: 8,
     name: "CREATINA 150G – POTÊNCIA MÁXIMA NOS TREINOS - VITAMIN HORSE",
     image: creatina150Img,
     price: 47.90,
     url: "https://vitaminhorse.com.br/produtos/creatina-150g-potencia-maxima-nos-treinos-vitamin-horse-si3d0/"
   },
   {
-    id: 8,
+    id: 9,
     name: "CARNE HORSE PROTEÍNA BOVINA + CREATINA + PEPCOL E L-ARGININA 900G",
     image: carneHorse,
     price: 217.90,
     url: "https://vitaminhorse.com.br/produtos/carne-horse-proteina-bovina-pepcol-e-l-arginina-900g/"
-  },
-  {
-    id: 9,
-    name: "NOVO PUMONEW EPHEDRA BLACK 300g",
-    image: pumonewEB,
-    price: 189.90,
-    url: "https://vitaminhorse.com.br/produtos/pre-treino-pumonew-ephedra-black-300g-vitamin-horse/"
   },
 ];
