@@ -1,0 +1,79 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  padding: 40px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 48px;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 8px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.logoAccent {
+  color: #D32F2F;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: #aaa;
+  margin: 0;
+  font-weight: 400;
+}
+
+.productsGrid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px;
+  padding: 0 20px;
+}
+
+@media (min-width: 640px) {
+  .productsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .productsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+
+  .header {
+    margin-bottom: 64px;
+  }
+
+  .logo {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .productsGrid {
+    gap: 36px;
+  }
+}
+
+.emptyState {
+  text-align: center;
+  padding: 80px 20px;
+  color: #888;
+  font-size: 1.125rem;
+}
