@@ -1,7 +1,7 @@
 import styles from './ProductCard.module.css';
 
 const ProductCard = ({ product }) => {
-  const { name, image, price, url } = product;
+  const { name, image, oldPrice, price, discount, url } = product;
 
   const formatPrice = (value) => {
     return value.toFixed(2).replace('.', ',');
@@ -10,6 +10,11 @@ const ProductCard = ({ product }) => {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
+        {discount > 0 && (
+          <div className={styles.discountBadge}>
+            {discount}% OFF
+          </div>
+        )}
         <img
           src={image}
           alt={name}
@@ -22,6 +27,11 @@ const ProductCard = ({ product }) => {
         <h3 className={styles.productName}>{name}</h3>
 
         <div className={styles.priceContainer}>
+          {oldPrice > 0 && (
+            <span className={styles.oldPrice}>
+              De R$ {formatPrice(oldPrice)}
+            </span>
+          )}
           <div className={styles.currentPrice}>
             {formatPrice(price)}
           </div>
@@ -33,7 +43,7 @@ const ProductCard = ({ product }) => {
           rel="noopener noreferrer"
           className={styles.buyButton}
         >
-          COMPRAR
+          Ver mais
         </a>
       </div>
     </div>
