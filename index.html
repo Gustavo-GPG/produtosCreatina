@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vitamin Horse - Suplementos de Alta Performance</title>
 
-    <!-- Meta Pixel Code -->
+    <!-- Meta Pixel Base Code (UMA VEZ) -->
     <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -18,17 +18,32 @@
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
+
+      /* Inicialização dos dois pixels */
+      fbq('init', '3714860678817184');
       fbq('init', '1804785616906341');
+
+      /* PageView único (vale para ambos) */
       fbq('track', 'PageView');
     </script>
     <!-- End Meta Pixel Code -->
   </head>
 
   <body>
-    <!-- Meta Pixel (noscript) -->
-   <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1804785616906341&ev=PageView&noscript=1"
-    /></noscript>
+    <!-- Meta Pixel noscript (UM POR PIXEL) -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=3714860678817184&ev=PageView&noscript=1"
+        alt=""
+      />
+    </noscript>
+
+    <noscript>
+      <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1804785616906341&ev=PageView&noscript=1"
+        alt=""
+      />
+    </noscript>
 
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
