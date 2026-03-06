@@ -15,6 +15,7 @@ import glutamina1 from "../assets/glutamina1.png";
 import nitromass from "../assets/nitromass.png";
 import ghBlack  from  "../assets/ghBlack.png";
 import colageno from "../assets/colageno.png";
+import energetico from "../assets/energetico.png"
 
 export const products = [
    {
@@ -152,5 +153,13 @@ export const products = [
     discount: 0,
     price: 119.90,
     url: "https://vitaminhorse.com.br/produtos/colageno-300-g-recuperacao-e-performance/"
+  },
+  {
+    name: "VH Drink Energy Drink Zero Açúcar 473ml",
+    image: energetico,
+    oldPrice: 0,
+    discount: 0,
+    price: 120.00,
+    url: "https://vitaminhorse.com.br/produtos/vh-drink-energy-drink-zero-acucar-473ml-bebida-energetica-com-cafeina-e-vitaminas-b3-b5-b6-e-b12-fardo-com-12-ou-24-latas-38qnl/"
   },
 ];
